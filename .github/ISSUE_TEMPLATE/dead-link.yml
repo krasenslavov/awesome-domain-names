@@ -1,0 +1,16 @@
+name: Report a dead or outdated entry
+description: A link that no longer works, or a tool that is gone or no longer maintained.
+labels: ["maintenance"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+    validations:
+      required: true

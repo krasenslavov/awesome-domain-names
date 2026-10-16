@@ -1,0 +1,23 @@
+name: Suggest an entry
+description: Suggest a tool or resource for the list (a pull request is even better).
+labels: ["suggestion"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs on the list
+      description: What did you use it for, and what is it better at than the entries already here?
+    validations:
+      required: true
+  - type: checkboxes
+    id: maker
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am the maker of it
