@@ -89,6 +89,7 @@ Tools, data and reading for choosing a name, checking whether it is free, learni
 - [DNSViz](https://dnsviz.net/) - Visualises DNSSEC chains and finds errors.
 - [MXToolbox](https://mxtoolbox.com/) - Mail server, DNS and blocklist checks.
 - [Zonemaster](https://zonemaster.net/) - Checks how well a domain's DNS is set up.
+- [ZoneBI](https://zonebi.com/en/) - Monitors domain expiry, DNS, SSL certificates, email authentication (SPF, DKIM, DMARC) and Spamhaus blocklists. Free plan for 3 domains.
 
 ## Lookalikes and typosquatting
 
